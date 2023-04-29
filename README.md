@@ -26,3 +26,13 @@ curl http://localhost:3000/users
 ```sh
 curl http://localhost:3000/users/1
 ```
+
+## Test
+
+```sh
+npm test
+```
+
+```sh
+ k6 run k6/test-post.js
+```
